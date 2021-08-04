@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "515146935250",
+    "project_id": "tracker-a7fbe",
+    "storage_bucket": "tracker-a7fbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515146935250:android:dea366d5edecffa07eb60b",
+        "android_client_info": {
+          "package_name": "com.example.find_my_phone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515146935250-fclv8qs3ff61eb6iq2detofam6kk5rml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZf_Ac5ysq7NE97ynPjXqbOUj8yCpw8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515146935250-fclv8qs3ff61eb6iq2detofam6kk5rml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

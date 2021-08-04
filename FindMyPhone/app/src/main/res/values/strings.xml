@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="google_maps_key">AIzaSyBY3c7RFvwzs06juEg0nzIU7PVERTIV3U8</string>
+
+    <string name="app_name">Find-My-Phone</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
