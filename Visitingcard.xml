@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="60dp">
+
+         <TextView
+             android:id="@+id/txtview1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="RNS  Institute of Technology"
+             android:textColor="#243388"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintLeft_toLeftOf="parent"
+             app:layout_constraintRight_toRightOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <ImageView
+             android:id="@+id/imageView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/txtview1"
+
+             app:srcCompat="@drawable/rns"
+             tools:ignore="NotSibling" />
+     </RelativeLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black">
+
+    </View>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vindhya Hegde"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="CSE Student"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="+91 1110416755"
+        android:textColor="#03A9F4"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bangalore"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Email : rnsit@gmail.com , Website: rnsit.ac.in"
+        android:textColor="#3F51B5"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
