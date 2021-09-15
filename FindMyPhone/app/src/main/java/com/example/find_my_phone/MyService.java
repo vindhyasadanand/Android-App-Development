@@ -21,9 +21,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by hussienalrubaye on 9/26/16.
- */
+
 
  class MyServie extends Service {
     public static boolean IsRunning=false;
